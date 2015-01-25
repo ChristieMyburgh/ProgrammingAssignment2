@@ -1,6 +1,3 @@
-##These 2 functions create a special object that stores a matrix and caches it's
-##inverse. 
-
 ##This fucntion creates a special matrix object which is actually a list
 ##containing functions:
 makeCacheMatrix <- function(x = matrix()) {
@@ -40,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##This function calculatest the inverse of the special matrix created by the 
+##This function calculate the inverse of the special matrix created by the 
 ##function above.  However, it first checks if the inverse has already been
 ##calculated If so, it gets the inverse from the cache. Otherwise, it calculates
 ##the inverse of the data and sets the value of the inverse in the cache via the
